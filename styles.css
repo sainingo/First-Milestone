@@ -5,10 +5,11 @@ main {
   flex-direction: column;
   max-width: 1000px;
   margin: 5%;
+  font-family: 'Poppins', 'sans-serif';
 }
 
 header {
-  color:  #6070ff;
+  color: #6070ff;
   position: relative;
   display: flex;
   align-items: baseline;
@@ -19,14 +20,13 @@ h4 {
   left: 12px;
   top: 10px;
   position: static;
-  font-family: 'Poppins', 'sans-serif';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;    
 }
 
-h4:hover {
+h4:hover{
   cursor: pointer;
 }
 
@@ -36,10 +36,10 @@ h4:hover {
   top: 18px;
   right: 4px;
   position: absolute;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-.hamb:hover {
+.hamb:hover{
   cursor: pointer;
 }
 
@@ -52,14 +52,12 @@ section h1 {
   font-weight: bold;
   line-height: 52px;
   font-style: normal;
-  font-family: 'Poppins', 'sans-serif';
 }
 
 section p {
   display: inline;
   position: static;
   color: #344563;
-  font-family: 'Poppins', 'sans-serif';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
