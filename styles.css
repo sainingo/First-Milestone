@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
-
 main {
-    /* width: 375px;
-    height: 718px; */
   display: flex;
   flex-direction: column;
-    /* color: #FFFFFF; */
   max-width: 1000px;
   margin: 5%;
 }
@@ -18,12 +14,11 @@ header {
   align-items: baseline;
 }
 h4{
-    /* width: 76px; */
   height: 20px;
   left: 12px;
   top: 10px;
   position: static;
-  font-family: Poppins;
+  font-family: 'Poppins', 'sans-serif';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -57,7 +52,7 @@ section p {
   display: inline;
   position: static;
   color: #344563;
-  font-family: 'Poppins';
+  font-family: 'Poppins', 'sans-serif';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
