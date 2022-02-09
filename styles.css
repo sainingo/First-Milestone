@@ -8,12 +8,13 @@ main {
 }
 
 header {
-  color: #6070FF;
+  color:  #6070ff;
   position: relative;
   display: flex;
   align-items: baseline;
 }
-h4{
+
+h4 {
   height: 20px;
   left: 12px;
   top: 10px;
@@ -24,9 +25,11 @@ h4{
   font-size: 18px;
   line-height: 20px;    
 }
+
 h4:hover {
   cursor: pointer;
 }
+
 .hamb {
   width: 18px;
   float: right;
@@ -35,12 +38,15 @@ h4:hover {
   position: absolute;
   color: #6070FF;
 }
-.hamb:hover{
+
+.hamb:hover {
   cursor: pointer;
 }
+
 section {
   text-align: center;
 }
+
 section h1 {
   font-size: 40px;
   font-weight: bold;
@@ -48,6 +54,7 @@ section h1 {
   font-style: normal;
   font-family: 'Poppins', 'sans-serif';
 }
+
 section p {
   display: inline;
   position: static;
