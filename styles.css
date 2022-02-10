@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 main {
-  display: flex;
-  flex-direction: column;
   max-width: 1000px;
   margin: 5%;
   font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -60,4 +64,97 @@ section p {
   font-style: normal;
   line-height: 24px;
   left: 24px;
+}
+
+.social-icon {
+  padding: 5px;
+}
+
+.social-icon img:hover {
+  cursor: pointer;
+}
+
+.social-wrapper span {
+  width: 20%;
+  height: 20%;
+}
+
+.social-details {
+  align-self: flex-start;
+}
+
+.social-details h5 {
+  color: #6070ff;
+}
+
+.eclipse-11 {
+  position: absolute;
+  left: 0;
+  width: 5%;
+}
+
+.eclipse-3 {
+  position: absolute;
+  width: 30px;
+  right: 0;
+}
+
+.rect-4 {
+  position: absolute;
+  right: -5px;
+  top: 55px;
+  width: 20%;
+}
+
+.rect-7 {
+  position: absolute;
+  margin-top: 10px;
+  left: 40%;
+}
+
+.eclipse-5 {
+  position: absolute;
+  left: 40%;
+  margin-top: 18px;
+}
+
+.back-drop {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.headline-section h1 {
+  padding-left: 5px;
+}
+
+.eclipse-12 {
+  position: absolute;
+  right: 20px;
+}
+
+.eclipse-13 {
+  position: absolute;
+  right: 28px;
+  margin-top: 8px;
+  width: 10%;
+}
+
+.eclipse-15 {
+  position: absolute;
+  margin-top: 25px;
+  left: 30px;
+}
+
+.rect-5 {
+  position: absolute;
+  margin-top: 25px;
+  padding-top: 15px;
+  width: 15%;
+}
+
+.eclipse-4 {
+  position: absolute;
+  margin-top: 40px;
+  right: 35%;
+  width: 5%;
 }
