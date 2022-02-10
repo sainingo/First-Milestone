@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 
 main {
-  max-width: 1000px;
-  margin: 5%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-image: url(/images/Header\ bg@2x.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -2px;
 }
 
 .wrapper {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
+
+  /* max-width: 1000px; */
+
+  /* margin-top: 5px; */
+
+  /* margin: 5%; */
 }
 
 header {
@@ -42,7 +50,9 @@ h4:hover {
   color: #6070ff;
 }
 
-.hamb:hover { cursor: pointer; }
+.hamb:hover {
+  cursor: pointer;
+}
 
 section {
   text-align: center;
@@ -125,6 +135,7 @@ section p {
 
 .headline-section h1 {
   padding-left: 5px;
+  margin-top: 20%;
 }
 
 .eclipse-12 {
