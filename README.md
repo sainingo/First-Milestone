@@ -11,4 +11,5 @@ Run
 - git clone git@github.com:sainingo/First-Milestone.git
 - cd First-Milestone
 ## Author
-- Github https://github.com/sain
+- Github https://github.com/sainingo
+
