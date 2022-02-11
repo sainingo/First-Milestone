@@ -23,17 +23,19 @@ header {
   position: relative;
   display: flex;
   align-items: baseline;
+  background-color: rgb(247, 240, 240);
+  padding: 4px;
 }
 
 .h4 {
   height: 20px;
   left: 12px;
   top: 10px;
-  position: static;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+  margin-top: 20px;
 }
 
 .h4:hover {
@@ -51,10 +53,6 @@ header {
 
 .hamb:hover {
   cursor: pointer;
-}
-
-section {
-  text-align: center;
 }
 
 section h1 {
@@ -88,13 +86,25 @@ section p {
   cursor: pointer;
 }
 
-.social-wrapper span {
-  width: 20%;
-  height: 20%;
+.social-wrapper ul {
+  list-style-type: none;
+}
+
+.social-wrapper ul li {
+  display: inline;
+  padding: 5px;
+}
+
+.social-wrapper ul li:hover {
+  cursor: pointer;
+  background-color: rgb(230, 193, 193);
+  padding: 4px;
+  border-radius: 8px;
 }
 
 .social-details {
   align-self: flex-start;
+  text-align: center;
 }
 
 .social-details h5 {
