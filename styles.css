@@ -81,13 +81,13 @@ section p {
 
 .card-desc ul {
   list-style: none;
-  padding: 20px;
+  padding: 2px;
 }
 
 .card-desc ul li {
   display: inline;
   padding: 5px;
-  font-size: 22px;
+  font-size: 18px;
   color: #7a869a;
   line-height: 16px;
   font-weight: 600;
@@ -98,7 +98,7 @@ section p {
 .desc ul li {
   color: #6070ff;
   letter-spacing: 0.03em;
-  font-size: 22px;
+  font-size: 16px;
   border-radius: 8px;
   padding: 4px 12px;
   margin: 8px;
@@ -189,6 +189,10 @@ section p {
   flex-direction: column;
 }
 
+.desc ul {
+  margin-top: 30px;
+}
+
 .desc p {
   color: #7a869a;
   font-family: "Poppins", sans-serif;
@@ -198,9 +202,22 @@ section p {
 }
 
 .desc button {
-  width: 30%;
+  width: 40%;
   margin: 20px;
-  padding: 10px;
+  padding: 5px;
+  color: #396df2;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.about-me button {
+  margin: 20px;
+  padding: 5px;
   color: #396df2;
   text-align: center;
   align-items: center;
@@ -209,6 +226,12 @@ section p {
   border: 1px solid #396df2;
   border-radius: 8px;
   background-color: #fff;
+  width: 30%;
+}
+
+.desc button:hover {
+  cursor: pointer;
+  color: #dfe1e6;
 }
 
 .card-1 {
@@ -247,7 +270,7 @@ section p {
   margin-left: 10px;
 }
 
-.about-me h1 {
+.about-me h3 {
   margin-left: 40px;
   font-size: 60px;
 }
@@ -261,16 +284,7 @@ section p {
   font-family: "Poppins", sans-serif;
 }
 
-.about-me button {
-  width: 30%;
-  margin: 20px;
-  padding: 10px;
-  color: #396df2;
-  text-align: center;
-  align-items: center;
-  letter-spacing: 0.03em;
-  font-size: 22px;
-  border: 1px solid #396df2;
-  border-radius: 8px;
-  background-color: #fff;
+.about-me button:hover {
+  cursor: pointer;
+  color: #dfe1e6;
 }
