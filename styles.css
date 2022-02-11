@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 
-body {
-  padding: 0 5%;
-}
-
 section {
   font-family: "Poppins", sans-serif;
   background-image: url(./images/Header\ bg@2x.png);
@@ -21,7 +17,6 @@ section {
 header {
   color: #6070ff;
   position: relative;
-  display: flex;
   align-items: baseline;
   background-color: rgb(247, 240, 240);
   padding: 4px;
@@ -55,7 +50,7 @@ header {
   cursor: pointer;
 }
 
-section h1 {
+.headline-section h1 {
   font-size: 40px;
   font-weight: bold;
   line-height: 52px;
@@ -63,6 +58,8 @@ section h1 {
   width: 90%;
   text-align: left;
   margin: 0 auto;
+  padding-left: 5px;
+  margin-top: 20%;
 }
 
 section p {
@@ -80,6 +77,42 @@ section p {
 
 .social-icon {
   padding: 5px;
+}
+
+.card-desc ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.card-desc ul li {
+  display: inline;
+  padding: 5px;
+  font-size: 22px;
+  color: #7a869a;
+  line-height: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.desc ul li {
+  color: #6070ff;
+  letter-spacing: 0.03em;
+  font-size: 22px;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin: 8px;
+  background-color: #ebebff;
+  align-items: center;
+}
+
+.about-me ul {
+  list-style: none;
+}
+
+.about-me ul li {
+  font-size: 32px;
+  padding: 18px;
 }
 
 .social-icon img:hover {
@@ -111,79 +144,133 @@ section p {
   color: #6070ff;
 }
 
-.eclipse-11 {
-  position: absolute;
-  left: 0;
-  width: 5%;
-}
-
-.eclipse-3 {
-  position: absolute;
-  width: 30px;
-  right: 0;
-}
-
-.rect-4 {
-  position: absolute;
-  right: -5px;
-  top: 55px;
-  width: 20%;
-}
-
-.rect-7 {
-  position: absolute;
-  margin-top: 10px;
-  left: 40%;
-}
-
-.eclipse-5 {
-  position: absolute;
-  left: 40%;
-  margin-top: 18px;
-}
-
 .back-drop {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-.headline-section h1 {
-  padding-left: 5px;
-  margin-top: 20%;
+.work {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
 }
 
-.eclipse-12 {
-  position: absolute;
-  right: 20px;
-}
-
-.eclipse-13 {
-  position: absolute;
-  right: 28px;
-  margin-top: 8px;
-  width: 10%;
-}
-
-.eclipse-15 {
-  position: absolute;
-  margin-top: 25px;
-  left: 30px;
-}
-
-.rect-5 {
-  position: absolute;
-  margin-top: 25px;
-  padding-top: 15px;
-  width: 15%;
-}
-
-.eclipse-4 {
-  position: absolute;
+.card {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-right: 30px;
   margin-top: 40px;
-  right: 35%;
-  width: 5%;
+  padding: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
 }
 
-.empty {
-  margin-top: 20%;
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: flex-start;
+}
+
+.card-desc h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 44px;
+  color: #172b4d;
+  width: 295px;
+  height: 36px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc p {
+  color: #7a869a;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.desc button {
+  width: 30%;
+  margin: 20px;
+  padding: 10px;
+  color: #396df2;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  font-size: 22px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card-1 {
+  background-image: url("./cards/card-1.png");
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 448px;
+  border-radius: 18px;
+}
+
+.card-2 {
+  background-image: url("./cards/card-2.png");
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 448px;
+  border-radius: 18px;
+}
+
+.card-3 {
+  background-image: url("./cards/card-3.png");
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 448px;
+  border-radius: 18px;
+}
+
+.card-4 {
+  background-image: url("./cards/card-4.png");
+  background-repeat: no-repeat;
+  width: 544px;
+  height: 448px;
+  border-radius: 18px;
+}
+
+.about-me {
+  margin-left: 10px;
+}
+
+.about-me h1 {
+  margin-left: 40px;
+  font-size: 60px;
+}
+
+.about-me p {
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  font-weight: normal;
+  line-height: 24px;
+  color: #344563;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-me button {
+  width: 30%;
+  margin: 20px;
+  padding: 10px;
+  color: #396df2;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  font-size: 22px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  background-color: #fff;
 }
